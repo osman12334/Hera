@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.desktop {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Hero section */
+.hero {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/desktop---1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: #ffffff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    height: 52px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-links a.active {
+    font-weight: 700;
+}
+
+.donate-btn {
+    background-color: #FD7E14;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-content {
+    max-width: 565px;
+    margin: 4rem;
+}
+
+.hero-content h1 {
+    font-family: 'Teachers', sans-serif;
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero-content p {
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.hero-stats {
+    display: flex;
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+}
+
+.stat {
+    margin-right: 2rem;
+}
+
+.stat h2 {
+    font-family: 'Teachers', sans-serif;
+    color: #FD7E14;
+    font-size: 1.75rem;
+}
+
+/* Info block */
+.info-block {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #F8F9FA;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon.education {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/clip-path-group.png);
+}
+
+.icon.healthcare {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/clip-path-group-1.png);
+}
+
+.icon.water {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/group.png);
+}
+
+/* About section */
+.about {
+    display: flex;
+    padding: 4rem 2rem;
+}
+
+.about-image {
+    flex: 1;
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    min-height: 560px;
+}
+
+.about-content {
+    flex: 1;
+    padding: 0 2rem;
+}
+
+.about-step {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.step-number {
+    background-color: #FD7E14;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+/* Campaigns section */
+.campaigns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+}
+
+.campaign-card {
+    width: 416px;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.05);
+}
+
+.campaign-image {
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+.campaign-image.water {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-1.png);
+}
+
+.campaign-image.education {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-2.png);
+}
+
+.campaign-image.menstruation {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-3.png);
+}
+
+.campaign-content {
+    padding: 2rem;
+}
+
+.campaign-content h3 {
+    font-family: 'Teachers', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    height: 12px;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.progress {
+    height: 100%;
+    background-color: #FD7E14;
+    border-radius: 4px;
+}
+
+.campaign-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.view-details {
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Gallery section */
+.gallery {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-family: 'Teachers', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-image {
+    width: 416px;
+    height: 416px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-image.img1 {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-4.png);
+}
+
+.gallery-image.img2 {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-5.png);
+}
+
+.gallery-image.img3 {
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-6.png);
+}
+
+/* CTA section */
+.cta {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.cta h2 {
+    font-family: 'Teachers', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cta-image {
+    position: relative;
+    height: 548px;
+    background-image: url(https://c.animaapp.com/m968obd2vUFb6Z/img/img-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-btn {
+    width: 80px;
+    height: 80px;
+    background-color: #FD7E14;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-image figcaption {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Final CTA section */
+.final-cta {
+    padding: 4rem 2rem;
+    text-align: right;
+}
+
+.final-cta h2 {
+    font-family: 'Teachers', sans-serif;
+    font-size: 3rem;
+    max-width: 750px;
+    margin-left: auto;
+}
+
+/* Footer */
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+  }
+  
+  .modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modal-content h2 {
+    font-family: 'Teachers', sans-serif;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content label {
+    margin-top: 1rem;
+  }
+  
+  .modal-content input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-content button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #FD7E14;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .modal-content img {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+  
+  /* Lightbox Styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+  }
+  
+  .lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+  }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <main class="contact-us">
+        <header class="header">
+            <nav class="menu">
+                <a href="#" class="menu-item">Home</a>
+                <a href="#" class="menu-item">Causes</a>
+                <a href="#" class="menu-item">Single Cause</a>
+                <a href="#" class="menu-item">About Us</a>
+                <a href="#" class="menu-item active">Contact Us</a>
+            </nav>
+            <button class="button">DONATE</button>
+        </header>
+        
+        <section class="hero">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="#">Home</a>
+                <img class="chevron-right" src="https://c.animaapp.com/UiOHkmmd/img/chevron-right.svg" alt=">" />
+                <span aria-current="page">Contact Us</span>
+            </nav>
+            <h1>Every Act of Kindness Counts</h1>
+        </section>
+        
+        <section class="contacts">
+            <form class="form">
+                <fieldset class="input-group">
+                    <div class="input">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                    </div>
+                    <div class="input">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </div>
+                </fieldset>
+                <fieldset class="input-group">
+                    <div class="input">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                </fieldset>
+                <div class="input">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="input">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="button">SEND MESSAGE</button>
+            </form>
+        </section>
+        
+        <section class="FAQ">
+            <h2>Frequently<br>Asked<br>Questions</h2>
+            <ul class="faq-items">
+                <li class="faq-item">
+                    <p>Is there a minimum/maximum amount I can donate?</p>
+                    <button class="toggle-btn" aria-label="Toggle answer" aria-expanded="false"></button>
+                </li>
+                <li class="faq-item">
+                    <p>Can I give to more than one charity?</p>
+                    <button class="toggle-btn" aria-label="Toggle answer" aria-expanded="false"></button>
+                </li>
+                <li class="faq-item">
+                    <p>When will my charity receive my donation?</p>
+                    <button class="toggle-btn" aria-label="Toggle answer" aria-expanded="false"></button>
+                </li>
+                <li class="faq-item">
+                    <p>Will my chosen charity receive all my donation?</p>
+                    <button class="toggle-btn" aria-label="Toggle answer" aria-expanded="false"></button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script2.js"></script>
+</body>
+</html>
